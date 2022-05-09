@@ -16,4 +16,12 @@ export async function CreateManyRecomendations() {
     }  
 }
 
+export async function CreateOneRecomendation() {
+
+    return {
+        name: 'Ocean Eyes - Billie Eilish',
+        youtubeLink: 'https://www.youtube.com/watch?v=viimfQi_pUw'
+    }
+}
+
 
